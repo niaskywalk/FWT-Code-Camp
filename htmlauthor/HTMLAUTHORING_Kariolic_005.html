@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+
+    <title>TED Radio Hour | 005 Using Div and Span</title>
+
+    <style>
+        h1 {
+            font-size: 3rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-bottom: 0;
+        }
+        h1#title {
+            font-size: 4rem;
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+
+        div {
+            width: 75vw;
+            height: auto;
+            border: 3px dashed palevioletred;
+            border-radius: 25px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            padding: 0 .8rem;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        div h1 {
+            color: rgba(31, 37, 53, 0.863);
+        }
+
+        div div {
+            border-radius:0;
+            border-top-right-radius: 25px;
+            display: inline-block;
+            float:right;
+            font-size: .8rem;
+            border: 1px solid transparent;
+            width: unset;
+            background-color: rgba(212, 25, 181, 0.418);
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        div div span {
+            font-weight: bold;
+            font-style: oblique;
+            text-transform: capitalize;
+        }
+
+        p.description {
+            margin-top: 0;
+            padding-top: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 id="title">TED Radio Hour</h1>
+    <h2>The next five episodes</h2>
+
+        <div id="01">
+            <h1>7 Deadly Sins</h1>
+            <p class="description">Original broadcast date: February 6, 2016. Sinful behavior is human, and nearly impossible to avoid. In this hour, TED speakers talk about the guilty pleasure of behaving badly and the challenge of confronting sin — and avoiding it. Guests include psychologist Christopher Ryan, former Oklahoma City mayor Mick Cornett, activist Dave Meslin, epidemiologist Gary Slutkin, entrepreneur Nick Hanauer, book editor Parul Seghal, and record-holding Jeopardy champion Ken Jennings.</p>
+            <div class="meta">
+                <p><span>pubdate:</span> Fri, 05 Jul 2019 00:01:00 -0400</p>
+                <p><span>copyright:</span> Copyright 2012-2019 NPR - For Personal Use Only</p>
+            </div>
+        </div>
+        <div id="02">
+            <h1>How We Love</h1>
+            <p class="description">Original broadcast date: April 25, 2014. Love is instinctive and essential, but what is it that brings certain people together? In this hour, TED speakers examine the mystery of connection and relationships. Guests include writers Amy Webb and Jeff Kluger, Anthropologist Helen Fisher, Psychotherapist Esther Perel, and CEO Angela Patton.</p>
+            <div class="meta">
+                <p><span>pubdate:</span> Fri, 28 Jun 2019 00:01:00 -0400</p>
+                <p><span>copyright:</span> Copyright 2012-2019 NPR - For Personal Use Only</p>
+            </div>
+        </div>
+        <div id="03">
+            <h1>Moving Forward</h1>
+            <p class="description">When the life you've built slips out of your grasp, you're often told it's best to move on. But is that true? Instead of forgetting the past, TED speakers describe how we can move forward with it. Guests include writers Nora McInerny and Suleika Jaouad, and human rights advocate Lindy Lou Isonhood.</p>
+            <div class="meta">
+                <p><span>pubdate:</span> Fri, 21 Jun 2019 00:01:00 -0400</p>
+                <p><span>copyright:</span> Copyright 2012-2019 NPR - For Personal Use Only</p>
+            </div>
+        </div>
+        <div id="04">
+            <h1>Future Consequences</h1>
+            <p class="description">Original broadcast date: September 15, 2017. From data collection to gene editing to AI, what we once considered science fiction is now becoming reality. This hour, TED speakers explore the future consequences of our present actions.Guests include designer Anab Jain, futurist Juan Enriquez, biologist Paul Knoepfler, and neuroscientist and philosopher Sam Harris.</p>
+            <div class="meta">
+                <p><span>pubdate:</span> Fri, 14 Jun 2019 00:01:00 -0400</p>
+                <p><span>copyright:</span> Copyright 2012-2019 NPR - For Personal Use Only</p>
+            </div>
+        </div>
+        <div id="05">
+            <h1>Climate Crisis</h1>
+            <p class="description">There's no greater threat to humanity than climate change. What can we do to stop the worst consequences? This hour, TED speakers explore how we can save our planet and whether we can do it in time. Guests include climate activist Greta Thunberg, chemical engineer Jennifer Wilcox, research scientist Sean Davis, food innovator Bruce Friedrich, and psychologist Per Espen Stoknes.</p>
+            <div class="meta">
+                <p><span>pubdate:</span> Fri, 07 Jun 2019 00:01:00 -0400</p>
+                <p><span>copyright:</span> Copyright 2012-2019 NPR - For Personal Use Only</p>
+            </div>
+        </div>
+</body>
+</html>

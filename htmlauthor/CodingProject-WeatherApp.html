@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="http://unpkg.com/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="http://unpkg.com/onsenui/css/onsen-css-components.min.css">
+    <link rel="stylesheet" href="CodingProject-WeatherApp.css">
+    <script src="CodingProject-WeatherApp-config.js"></script>
+    <script src="http://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <title>Weather App - Coding Project</title>
+</head>
+<body>
+    <!-- Using Onsen UI for user interface look and style -->
+    <ons-page>
+        <ons-toolbar class="center">
+            <div class="center">Weather App for the Weather</div> 
+        </ons-toolbar>
+        <section class="section">
+            <ons-input id="txtCity" modifier="underbar" placeholder="City Name" class="clearance"></ons-input>
+            <ons-button modifier="large" id="btnWeather">Get Weather</ons-button>
+          </section>
+          <section class="section" id="result"></section>
+    </ons-page>
+    <script src="CodingProject-WeatherApp.js"></script>
+</body>
+</html>

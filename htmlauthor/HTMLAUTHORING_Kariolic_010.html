@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" integrity="sha256-/O+WvT2Eeb1RIU6iMItEhi5xlHTCLHg2HgLmVGFWyW8=" crossorigin="anonymous" />
+    <title>Companies | 010 Tables</title>
+    <style>
+        /* Create an HTML5 document from scratch that is correctly formed and coded that displays a table of several companies from around the world. There should be a field for the company name, the company’s country of origin, the date that it was started in and the names of its founders.
+        Use row colors to make the table’s content easier to read and add a single line border. Also, change the default font of the table into a font of your choosing. */
+        h1 {
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 80vw;
+            margin: 15px auto;
+        }
+        tr, td, th {
+            border: 1px solid grey;
+            vertical-align: top;
+            padding: 15px;
+        }
+
+        td {
+            padding-top: 8px;
+        }
+        tr:nth-of-type(odd) {
+            background-color: paleturquoise;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <caption><h1>Interesting Companies</h1></caption>
+            <tr>
+                <th>Company Name</th>
+                <th>Origin Country</th>
+                <th>Date Founded</th>
+                <th>Founder(s)</th>
+            </tr>
+            <tr>
+                <td>Johnson &amp; Johnson</td>
+                <td>United States</td>
+                <td>January 1886</td>
+                <td>Robert Wood Johnson I<br />
+                    James Wood Johnson<br />
+                    Edward Mead Johnson</td>
+            </tr>
+            <tr>
+                <td>LucasArts</td>
+                <td>United States</td>
+                <td>May 1, 1982</td>
+                <td>George Lucas</td>
+            </tr>
+            <tr>
+                <td>Chapters Inc.</td>
+                <td>Canada</td>
+                <td>1995</td>
+                <td>Lawrence Stevenson</td>
+            </tr>
+            <tr>
+                <td>Barnes &amp; Noble</td>
+                <td>United States</td>
+                <td>1886</td>
+                <td>Charles M. Barnes<br />
+                    William Barnes<br />
+                    G. Clifford Noble<br />
+                    Leonard Riggio</td>
+            </tr>
+            <tr>
+                <td>Best Buy</td>
+                <td>United States</td>
+                <td>1966</td>
+                <td>Richard M. Schulze</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
